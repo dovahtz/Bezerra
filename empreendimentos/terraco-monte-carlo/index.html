@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terraço Monte Carlo · Bezerra Engenharia</title>
+<meta name="description" content="Torre de 25 pavimentos com lojas, três andares de estacionamento e lazer completo no bairro Novo, em Santa Cruz do Capibaribe.">
+<meta property="og:title" content="Terraço Monte Carlo · Bezerra Engenharia">
+<meta property="og:description" content="Torre de 25 pavimentos com lojas, três andares de estacionamento e lazer completo no bairro Novo, em Santa Cruz do Capibaribe.">
+<meta property="og:image" content="/uploads/capas/monte-carlo-wide.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#151d4d">
+<link rel="icon" href="/assets/img/favicon.svg?v=321402" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..800;1,9..40,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css?v=472128">
+</head>
+<body class="page--hero" data-base="">
+
+
+<header class="site-header site-header--hero" id="siteHeader">
+  <div class="container site-header__inner">
+    <a class="brand" href="/" aria-label="Bezerra Engenharia — página inicial">
+      <span class="brand__mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="#e52e4b" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowNjZiZmJmNi01YmFiLTRmOTQtOTE4NC0yMzVmNTUwMGZhOGYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLFsPza5Pl7I7M3X42jelhQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4ZDIzYmM5My1jNmRjLTQ5MWItOTU5NC1kZmYzNzgwMzM2ZjFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoSO3TaIMo2VE1ZijBIGoVGgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggXNuMwyAWtbC0LL6YgoqLNhBQ7lVnWwzEjevzcf6L4CSkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGvWWGkffRoO+J9Bd3oZ8Y4AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAPwMchWylIEDw12jfacdIJ7rigBbY/O+Q6puXJSZXuK2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiMZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjA2NmJmYmY2LTViYWItNGY5NC05MTg0LTIzNWY1NTAwZmE4Zi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjM3NmY5OTY1LTY0MDctNDQ5Ny04NzA3LTRjMTM2MGRkMWRjYnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBc24zDIBa1sLQsvpiCios2EFDuVWdbDMSN6/Nx/ovgJKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggZiNBtnaWLpufOA12e78OoPgmlgObRHAjSVAo4KfGto2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg38Xivzc9/I9PtahpVU0ccdQPqI/IE9L0U5yhjDR0xZl0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQF5iEr83v4bkZm30HBdaC1U4xDKLvphHoGWOiiTEWvx3IrP8aV+4cj2h+6OLvIei9/fNFDspRwsLBtUhKyEtst8=</c2pa:manifest></metadata>
+  <g transform="translate(50 24.7) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(75.3 50) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(50 75.3) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(24.7 50) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+</svg>
+</span>
+      <span class="brand__text"><b>BEZERRA</b><small>ENGENHARIA</small></span>
+    </a>
+    <nav class="nav" id="mainNav" aria-label="Principal">
+      <span class="nav__glow" aria-hidden="true"></span>
+              <a href="/empreendimentos" class="is-active"><span>Empreendimentos</span></a>
+              <a href="/sobre"><span>Quem somos</span></a>
+              <a href="/sobre#diferenciais"><span>Diferenciais</span></a>
+              <a href="/contato"><span>Contato</span></a>
+          </nav>
+    <a class="btn btn--ghost site-header__cta" href="/contato" data-open-chat>Fale com a gente <i class="arrow">→</i></a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav aria-label="Menu">
+          <a href="/empreendimentos" style="--i:0">Empreendimentos</a>
+          <a href="/sobre" style="--i:1">Quem somos</a>
+          <a href="/sobre#diferenciais" style="--i:2">Diferenciais</a>
+          <a href="/contato" style="--i:3">Contato</a>
+        <a class="btn btn--primary" href="/contato" style="--i:4" data-open-chat>Fale com a gente →</a>
+  </nav>
+</div>
+
+<main id="conteudo">
+
+<section class="hero hero--emp">
+  <div class="hero__media"><img src="/uploads/capas/monte-carlo-wide.jpg" alt="Terraço Monte Carlo" fetchpriority="high"></div>
+  <div class="container hero__content">
+    <div class="hero__brand"><span class="badge badge--red "><i></i>Lançamento</span> <span style="letter-spacing:.14em;font-weight:500;opacity:.85">Santa Cruz do Capibaribe, PE</span></div>
+    <h1 class="hero__title">Terraço Monte Carlo</h1>
+    <div class="hero__meta">
+      <div class="hero__stat"><b>3 a 4</b><span>Quartos</span></div>
+      <div class="hero__stat"><b>1 a 2</b><span>Suítes</span></div>      <div class="hero__stat"><b>94 a 185 <small style="font-size:.5em;font-weight:500">m²</small></b><span>Área privativa</span></div>
+      <div class="hero__stat sold">
+        <b>0%</b>
+        <span>Unidades vendidas</span>
+        <div class="sold__bar"><i style="--w:0%"></i></div>
+      </div>
+    </div>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#maquete3d">Ver em 3D <i class="arrow">→</i></a>      <a class="btn btn--ghost" href="/contato?assunto=Terra%C3%A7o+Monte+Carlo">Tenho interesse</a>
+    </div>
+  </div>
+  <div class="hero__scroll"><span>Role para explorar</span><i></i></div>
+</section>
+
+<!-- ===== 3 cards ===== -->
+<section class="section">
+  <div class="container">
+    <div class="info-cards">
+            <article class="icard" data-reveal style="--d:0s">
+        <div class="icard__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg></div>
+        <h3>Localização</h3>
+        <p>O que há ao redor do empreendimento.</p>
+                <ul><li>Av. Dr. Arnaldo Monteiro na porta</li><li>Rua das Pacas e Rua Antônio Félix da Silva</li><li>Parque Florestal Fernando Silvestre da Silva</li><li>Estádio Otávio Limeira Alves</li><li>Arteca Nordeste a poucos minutos</li><li>Comércio e serviços do bairro Novo</li></ul>
+              </article>
+            <article class="icard" data-reveal style="--d:0.12s">
+        <div class="icard__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M4 21V5l8-3 8 3v16"/><path d="M9 9h2M13 9h2M9 13h2M13 13h2M9 17h2M13 17h2"/></svg></div>
+        <h3>Estrutura</h3>
+        <p>Tudo o que o condomínio oferece.</p>
+                <ul><li>Piscina, prainha e piscina infantil</li><li>Piscina com pista de caminhada</li><li>Academia e sala multifuncional</li><li>Quadra de squash</li><li>Spa com ofurô e jacuzzi</li><li>Brinquedoteca, playground e sala de jogos</li><li>Pet place</li><li>Salão de festas e coworking no térreo</li><li>Área de convivência no 15º andar</li><li>15 lojas no térreo</li><li>3 pavimentos de estacionamento</li></ul>
+              </article>
+            <article class="icard icard--red" data-reveal style="--d:0.24s">
+        <div class="icard__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.6 6.1 6.4.6-4.9 4.3 1.5 6.4L12 16l-5.6 3.4 1.5-6.4L3 8.7l6.4-.6z"/></svg></div>
+        <h3>Escolha inteligente</h3>
+        <p>Por que este é um bom lugar para viver.</p>
+                <ul><li>Esquina de duas vias movimentadas do bairro Novo</li><li>Lazer completo sobre o pódio</li><li>Plantas de 94 a 185 m² com varandas corridas</li><li>Apenas 2 apartamentos por andar do 15º ao 21º</li><li>Fachada com cobogó e jardineiras verticais</li><li>Comércio no próprio edifício</li></ul>
+              </article>
+          </div>
+  </div>
+</section>
+
+<!-- ===== Sobre o empreendimento ===== -->
+<section class="section about" id="sobre">
+  <div class="container about-split">
+    <div class="about__intro">
+      <span class="eyebrow" data-reveal style="color:#ff8a9a">Sobre o projeto</span>
+      <h2 class="h2 about__title" data-split>Terraço Monte Carlo</h2>
+            <p class="about__addr" data-reveal style="--d:.1s">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Av. Dr. Arnaldo Monteiro com Rua das Pacas, bairro Novo<br>Santa Cruz do Capibaribe, PE</span>
+      </p>
+            <ul class="about__facts" data-reveal style="--d:.18s">
+        <li><b>3 a 4</b><span>Quartos</span></li>
+        <li><b>1 a 2</b><span>Suítes</span></li>        <li><b>94 a 185<small> m²</small></b><span>Área privativa</span></li>
+        <li><b>Lançamento</b><span>Situação</span></li>
+      </ul>
+    </div>
+    <div class="about__text" data-reveal style="--d:.15s">
+            <p class="about__lead">O Terraço Monte Carlo nasce no encontro da Av. Dr. Arnaldo Monteiro com a Rua das Pacas: um pódio de 15 lojas com pé-direito alto, três pavimentos de estacionamento envolvidos em cobogó e, sobre eles, um andar inteiro de lazer com piscinas, academia, squash, spa e playground.</p>
+            <p>A torre residencial tem 21 andares: do 1º ao 14º, cinco apartamentos por andar (T1-01 a T1-05, de 94 a 105 m²); no 15º, dois apartamentos de 177 e 185 m²; e do 16º ao 21º, dois apartamentos por andar (128 e 185 m²) com a área de convivência sobre a cobertura do bloco leste. Varandas corridas com guarda-corpo de vidro em toda a face sul e jardineiras nos andares mais altos.</p>
+          </div>
+  </div>
+</section>
+
+<!-- ===== Galeria ===== -->
+<section class="section gallery-section" id="galeria">
+  <div class="container">
+    <div class="section__head section__head--split">
+      <div>
+        <span class="eyebrow" data-reveal>Galeria</span>
+        <h2 class="h2" data-split style="margin-top:18px">Cada ângulo conta <span class="accent">uma história.</span></h2>
+      </div>
+      <div class="gallery-meta" data-reveal>
+        <span class="gallery-meta__count"><b>6</b> fotos <span class="gallery-meta__sep">·</span> <b>1</b> vídeo</span>
+        <button type="button" class="btn btn--navy btn--sm" data-open-gallery="galeria">Ver todas as fotos <i class="arrow">→</i></button>
+      </div>
+    </div>
+    <div class="gallery gallery--rich">
+            <a class="gallery__item gallery__item--video" href="/uploads/videos/montecarlo-4a710aa8.mp4" data-lightbox="galeria" data-video="/uploads/videos/montecarlo-4a710aa8.mp4" data-poster="/uploads/videos/poster-db7f9daa.jpg" data-caption="Vídeo · Terraço Monte Carlo" data-reveal="zoom" aria-label="Assistir ao vídeo do empreendimento">
+        <video muted loop playsinline preload="metadata" poster="/uploads/videos/poster-db7f9daa.jpg" data-autoplay>
+          <source src="/uploads/videos/montecarlo-4a710aa8.mp4">
+        </video>
+        <span class="gallery__num gallery__num--video">Vídeo</span>
+        <span class="gallery__play"><i></i><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+        <span class="gallery__cap gallery__cap--video">Assista ao vídeo do Terraço Monte Carlo</span>
+      </a>
+                  <a class="gallery__item" href="/uploads/galeria/monte-carlo-fachada.jpg" data-lightbox="galeria" data-caption="Fachada principal" data-reveal="zoom" style="--d:0s">
+        <img src="/uploads/galeria/monte-carlo-fachada.jpg" alt="Fachada principal" loading="lazy">
+        <span class="gallery__num">01</span>
+        <span class="gallery__cap">Fachada principal</span>              </a>
+            <a class="gallery__item" href="/uploads/galeria/monte-carlo-lojas.jpg" data-lightbox="galeria" data-caption="Lojas e pódio com cobogó" data-reveal="zoom" style="--d:0.06s">
+        <img src="/uploads/galeria/monte-carlo-lojas.jpg" alt="Lojas e pódio com cobogó" loading="lazy">
+        <span class="gallery__num">02</span>
+        <span class="gallery__cap">Lojas e pódio com cobogó</span>              </a>
+            <a class="gallery__item" href="/uploads/galeria/monte-carlo-lazer.jpg" data-lightbox="galeria" data-caption="Lazer sobre o pódio" data-reveal="zoom" style="--d:0.12s">
+        <img src="/uploads/galeria/monte-carlo-lazer.jpg" alt="Lazer sobre o pódio" loading="lazy">
+        <span class="gallery__num">03</span>
+        <span class="gallery__cap">Lazer sobre o pódio</span>              </a>
+            <a class="gallery__item" href="/uploads/galeria/monte-carlo-terracos.jpg" data-lightbox="galeria" data-caption="Terraços e apartamentos superiores" data-reveal="zoom" style="--d:0.18s">
+        <img src="/uploads/galeria/monte-carlo-terracos.jpg" alt="Terraços e apartamentos superiores" loading="lazy">
+        <span class="gallery__num">04</span>
+        <span class="gallery__cap">Terraços e apartamentos superiores</span>              </a>
+            <a class="gallery__item" href="/uploads/galeria/monte-carlo-convivencia.jpg" data-lightbox="galeria" data-caption="Área de convivência no 15º andar" data-reveal="zoom" style="--d:0.24s">
+        <img src="/uploads/galeria/monte-carlo-convivencia.jpg" alt="Área de convivência no 15º andar" loading="lazy">
+        <span class="gallery__num">05</span>
+        <span class="gallery__cap">Área de convivência no 15º andar</span>              </a>
+            <a class="gallery__item" href="/uploads/galeria/monte-carlo-aerea.jpg" data-lightbox="galeria" data-caption="Vista aérea" data-reveal="zoom" style="--d:0.3s">
+        <img src="/uploads/galeria/monte-carlo-aerea.jpg" alt="Vista aérea" loading="lazy">
+        <span class="gallery__num">06</span>
+        <span class="gallery__cap">Vista aérea</span>              </a>
+          </div>
+  </div>
+</section>
+
+<!-- ===== Plantas baixas ===== -->
+<section class="section section--white" id="plantas">
+  <div class="container">
+    <div class="section__head section__head--split">
+      <div>
+        <span class="eyebrow" data-reveal>Plantas baixas</span>
+        <h2 class="h2" data-split style="margin-top:18px">Entenda cada <span class="accent">ambiente.</span></h2>
+      </div>
+      <a class="link-arrow" href="#maquete3d" data-reveal>Prefere explorar em 3D? <i class="arrow">→</i></a>    </div>
+
+    <div class="plans" data-plans data-reveal="zoom">
+      <div class="plans__stage">
+        <div class="plans__track">
+                    <figure class="plans__slide" data-index="0">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140259-131f6a06.png" data-lightbox="plantas" data-caption="Apartamento T3-02 · T3-02 · 128,20 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140259-131f6a06.png" alt="Apartamento T3-02 · T3-02 · 128,20 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="1">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140041-47f3d346.png" data-lightbox="plantas" data-caption="Térreo, Hall social · 1º pavimento hall social, lojas, coworking e salão de festas" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140041-47f3d346.png" alt="Térreo, Hall social · 1º pavimento hall social, lojas, coworking e salão de festas" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="2">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140126-2bcba2c9.png" data-lightbox="plantas" data-caption="Estacionamento · 2º pavimento vazado 1 estacionamento" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140126-2bcba2c9.png" alt="Estacionamento · 2º pavimento vazado 1 estacionamento" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="3">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140141-b1164c5c.png" data-lightbox="plantas" data-caption="Estacionamento · 3º pavimento vazado 2 estacionamento" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140141-b1164c5c.png" alt="Estacionamento · 3º pavimento vazado 2 estacionamento" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="4">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140147-de5af3ec.png" data-lightbox="plantas" data-caption="Estacionamento · 4º pavimento vazado 3 estacionamento" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140147-de5af3ec.png" alt="Estacionamento · 4º pavimento vazado 3 estacionamento" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="5">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140151-c633c4a5.png" data-lightbox="plantas" data-caption="Área de lazer · 5º pavimento área de lazer" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140151-c633c4a5.png" alt="Área de lazer · 5º pavimento área de lazer" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="6">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140202-b538adae.png" data-lightbox="plantas" data-caption="Pavimento tipo 1 (1º ao 14º) · T1-01 · 104,85 m² · T1-02 · 94,90 m² · T1-03 · 98,45 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140202-b538adae.png" alt="Pavimento tipo 1 (1º ao 14º) · T1-01 · 104,85 m² · T1-02 · 94,90 m² · T1-03 · 98,45 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="7">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140206-f479aeaa.png" data-lightbox="plantas" data-caption="Pavimento tipo 2 (15º andar) · T2-01 · 185,15 m² · T2-02 · 177,25 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140206-f479aeaa.png" alt="Pavimento tipo 2 (15º andar) · T2-01 · 185,15 m² · T2-02 · 177,25 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="8">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140211-c8d3c058.png" data-lightbox="plantas" data-caption="Pavimento tipo 3 (16º ao 21º) · T3-01 · 185,15 m² · T3-02 · 128,20 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140211-c8d3c058.png" alt="Pavimento tipo 3 (16º ao 21º) · T3-01 · 185,15 m² · T3-02 · 128,20 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="9">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140217-190d8104.png" data-lightbox="plantas" data-caption="Apartamento T1-01 · T1-01 · 104,85 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140217-190d8104.png" alt="Apartamento T1-01 · T1-01 · 104,85 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="10">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140223-3cd2c1a9.png" data-lightbox="plantas" data-caption="Apartamento T1-02 · T1-02 · 94,90 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140223-3cd2c1a9.png" alt="Apartamento T1-02 · T1-02 · 94,90 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="11">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140229-5a5b82c9.png" data-lightbox="plantas" data-caption="Apartamento T1-03" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140229-5a5b82c9.png" alt="Apartamento T1-03" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="12">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140238-b76337f5.png" data-lightbox="plantas" data-caption="Apartamento T1-04 · T1-04 · 94,90 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140238-b76337f5.png" alt="Apartamento T1-04 · T1-04 · 94,90 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="13">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140243-5c173698.png" data-lightbox="plantas" data-caption="Apartamento T1-05 · 104,85 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140243-5c173698.png" alt="Apartamento T1-05 · 104,85 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="14">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140248-f4f05461.png" data-lightbox="plantas" data-caption="Apartamentos T2-01 e T3-01 · T3-01 · 185,15 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140248-f4f05461.png" alt="Apartamentos T2-01 e T3-01 · T3-01 · 185,15 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                    <figure class="plans__slide" data-index="15">
+            <a href="/uploads/plantas/captura-de-tela-2026-09-26-140254-4400ba85.png" data-lightbox="plantas" data-caption="Apartamento T2-02 · T2-02 · 177,25 m²" aria-label="Ampliar planta">
+              <img src="/uploads/plantas/captura-de-tela-2026-09-26-140254-4400ba85.png" alt="Apartamento T2-02 · T2-02 · 177,25 m²" loading="lazy" draggable="false">
+            </a>
+          </figure>
+                  </div>
+        <button type="button" class="plans__nav plans__nav--prev" data-prev aria-label="Planta anterior">‹</button>
+        <button type="button" class="plans__nav plans__nav--next" data-next aria-label="Próxima planta">›</button>
+        <span class="plans__hint">Clique para ampliar · arraste para navegar</span>
+      </div>
+
+      <aside class="plans__info">
+        <div class="plans__counter"><b data-current>01</b><span>/ 16</span></div>
+        <div class="plans__text" data-text>
+          <h3 data-title>Apartamento T3-02</h3>
+          <p data-desc>T3-02 · 128,20 m²</p>
+        </div>
+        <div class="plans__thumbs" role="tablist" aria-label="Plantas">
+                    <button type="button" role="tab" class="plans__thumb is-active" data-goto="0" data-title="Apartamento T3-02" data-desc="T3-02 · 128,20 m²" aria-label="Apartamento T3-02">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140259-131f6a06.png" alt="" loading="lazy" draggable="false">
+            <span>Apartamento T3-02</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="1" data-title="Térreo, Hall social" data-desc="1º pavimento hall social, lojas, coworking e salão de festas" aria-label="Térreo, Hall social">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140041-47f3d346.png" alt="" loading="lazy" draggable="false">
+            <span>Térreo, Hall social</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="2" data-title="Estacionamento" data-desc="2º pavimento vazado 1 estacionamento" aria-label="Estacionamento">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140126-2bcba2c9.png" alt="" loading="lazy" draggable="false">
+            <span>Estacionamento</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="3" data-title="Estacionamento" data-desc="3º pavimento vazado 2 estacionamento" aria-label="Estacionamento">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140141-b1164c5c.png" alt="" loading="lazy" draggable="false">
+            <span>Estacionamento</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="4" data-title="Estacionamento" data-desc="4º pavimento vazado 3 estacionamento" aria-label="Estacionamento">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140147-de5af3ec.png" alt="" loading="lazy" draggable="false">
+            <span>Estacionamento</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="5" data-title="Área de lazer" data-desc="5º pavimento área de lazer" aria-label="Área de lazer">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140151-c633c4a5.png" alt="" loading="lazy" draggable="false">
+            <span>Área de lazer</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="6" data-title="Pavimento tipo 1 (1º ao 14º)" data-desc="T1-01 · 104,85 m² · T1-02 · 94,90 m² · T1-03 · 98,45 m²" aria-label="Pavimento tipo 1 (1º ao 14º)">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140202-b538adae.png" alt="" loading="lazy" draggable="false">
+            <span>Pavimento tipo 1 (1º ao 14º)</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="7" data-title="Pavimento tipo 2 (15º andar)" data-desc="T2-01 · 185,15 m² · T2-02 · 177,25 m²" aria-label="Pavimento tipo 2 (15º andar)">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140206-f479aeaa.png" alt="" loading="lazy" draggable="false">
+            <span>Pavimento tipo 2 (15º andar)</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="8" data-title="Pavimento tipo 3 (16º ao 21º)" data-desc="T3-01 · 185,15 m² · T3-02 · 128,20 m²" aria-label="Pavimento tipo 3 (16º ao 21º)">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140211-c8d3c058.png" alt="" loading="lazy" draggable="false">
+            <span>Pavimento tipo 3 (16º ao 21º)</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="9" data-title="Apartamento T1-01" data-desc="T1-01 · 104,85 m²" aria-label="Apartamento T1-01">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140217-190d8104.png" alt="" loading="lazy" draggable="false">
+            <span>Apartamento T1-01</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="10" data-title="Apartamento T1-02" data-desc="T1-02 · 94,90 m²" aria-label="Apartamento T1-02">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140223-3cd2c1a9.png" alt="" loading="lazy" draggable="false">
+            <span>Apartamento T1-02</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="11" data-title="Apartamento T1-03" data-desc="" aria-label="Apartamento T1-03">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140229-5a5b82c9.png" alt="" loading="lazy" draggable="false">
+            <span>Apartamento T1-03</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="12" data-title="Apartamento T1-04" data-desc="T1-04 · 94,90 m²" aria-label="Apartamento T1-04">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140238-b76337f5.png" alt="" loading="lazy" draggable="false">
+            <span>Apartamento T1-04</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="13" data-title="Apartamento T1-05" data-desc="104,85 m²" aria-label="Apartamento T1-05">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140243-5c173698.png" alt="" loading="lazy" draggable="false">
+            <span>Apartamento T1-05</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="14" data-title="Apartamentos T2-01 e T3-01" data-desc="T3-01 · 185,15 m²" aria-label="Apartamentos T2-01 e T3-01">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140248-f4f05461.png" alt="" loading="lazy" draggable="false">
+            <span>Apartamentos T2-01 e T3-01</span>
+          </button>
+                    <button type="button" role="tab" class="plans__thumb" data-goto="15" data-title="Apartamento T2-02" data-desc="T2-02 · 177,25 m²" aria-label="Apartamento T2-02">
+            <img src="/uploads/plantas/captura-de-tela-2026-09-26-140254-4400ba85.png" alt="" loading="lazy" draggable="false">
+            <span>Apartamento T2-02</span>
+          </button>
+                  </div>
+                <a class="btn btn--navy btn--sm" href="#maquete3d">Ver a maquete 3D <i class="arrow">→</i></a>
+                <p class="plans__disclaimer">Plantas ilustrativas, sujeitas a alterações de projeto. Medidas aproximadas.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Maquete 3D ===== -->
+<section class="section section--tight" id="maquete3d">
+  <div class="container">
+    <div class="card3d" data-reveal="zoom">
+      <img src="/uploads/capas/monte-carlo.jpg" alt="">
+      <span class="card3d__badge">Maquete interativa</span>
+      <div class="card3d__body">
+        <span class="eyebrow" style="color:#ff8a9a">Explore em 3D</span>
+        <h2>Gire, aproxime e caminhe pela planta.</h2>
+        <p>Visualize o Terraço Monte Carlo em três dimensões: fachada, pavimentos, plantas e mobília em uma maquete interativa que abre direto no seu navegador.</p>
+        <p style="margin:-6px 0 0;font-size:14px"><a href="#plantas" style="color:#ff8a9a;text-decoration:underline">Prefere ver as plantas em 2D?</a></p>        <div class="card3d__buttons">
+                    <button type="button" class="btn btn--3d" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-fachada.json" data-bz3d-title="Fachada completa" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Fachada completa          </button>
+                    <button type="button" class="btn btn--3d btn--white" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-terreo.json" data-bz3d-title="Térreo · lojas e hall" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Térreo · lojas e hall          </button>
+                    <button type="button" class="btn btn--3d btn--white" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-estacionamento-1.json" data-bz3d-title="Estacionamento 1" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Estacionamento 1          </button>
+                    <button type="button" class="btn btn--3d btn--white" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-estacionamento-2.json" data-bz3d-title="Estacionamento 2" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Estacionamento 2          </button>
+                    <button type="button" class="btn btn--3d btn--white" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-estacionamento-3.json" data-bz3d-title="Estacionamento 3" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Estacionamento 3          </button>
+                    <button type="button" class="btn btn--3d btn--white" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-lazer.json" data-bz3d-title="Lazer" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Lazer          </button>
+                    <button type="button" class="btn btn--3d btn--white" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-tipo-1.json" data-bz3d-title="Tipo 1 (1º ao 14º andar)" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Tipo 1 (1º ao 14º andar)          </button>
+                    <button type="button" class="btn btn--3d btn--white" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-tipo-2.json" data-bz3d-title="Tipo 2 (15º andar)" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Tipo 2 (15º andar)          </button>
+                    <button type="button" class="btn btn--3d btn--white" data-bz3d-model="/uploads/maquetes/terraco-monte-carlo/terraco-monte-carlo-tipo-3.json" data-bz3d-title="Tipo 3 (16º ao 21º andar)" data-bz3d-subtitle="Terraço Monte Carlo">
+            <svg class="cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+            Tipo 3 (16º ao 21º andar)          </button>
+                  </div>
+        <p class="card3d__disclaimer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
+          <span>As maquetes são apenas uma aproximação visual e podem não representar fielmente o projeto e a obra final.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <span class="eyebrow eyebrow--plain" data-reveal style="color:#ff8a9a">Gostou do Terraço Monte Carlo?</span>
+    <h2 data-split>Fale com um consultor e conheça <span class="accent">as condições.</span></h2>
+    <div data-reveal style="--d:.15s"><a class="btn btn--primary btn--lg" href="/contato?assunto=Terra%C3%A7o+Monte+Carlo">Tenho interesse <i class="arrow">→</i></a></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <div class="site-footer__brand" data-reveal>
+        <a class="brand brand--light" href="/">
+          <span class="brand__mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="#e52e4b" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowNjZiZmJmNi01YmFiLTRmOTQtOTE4NC0yMzVmNTUwMGZhOGYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLFsPza5Pl7I7M3X42jelhQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4ZDIzYmM5My1jNmRjLTQ5MWItOTU5NC1kZmYzNzgwMzM2ZjFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoSO3TaIMo2VE1ZijBIGoVGgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggXNuMwyAWtbC0LL6YgoqLNhBQ7lVnWwzEjevzcf6L4CSkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGvWWGkffRoO+J9Bd3oZ8Y4AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAPwMchWylIEDw12jfacdIJ7rigBbY/O+Q6puXJSZXuK2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiMZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjA2NmJmYmY2LTViYWItNGY5NC05MTg0LTIzNWY1NTAwZmE4Zi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjM3NmY5OTY1LTY0MDctNDQ5Ny04NzA3LTRjMTM2MGRkMWRjYnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBc24zDIBa1sLQsvpiCios2EFDuVWdbDMSN6/Nx/ovgJKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggZiNBtnaWLpufOA12e78OoPgmlgObRHAjSVAo4KfGto2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg38Xivzc9/I9PtahpVU0ccdQPqI/IE9L0U5yhjDR0xZl0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQF5iEr83v4bkZm30HBdaC1U4xDKLvphHoGWOiiTEWvx3IrP8aV+4cj2h+6OLvIei9/fNFDspRwsLBtUhKyEtst8=</c2pa:manifest></metadata>
+  <g transform="translate(50 24.7) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(75.3 50) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(50 75.3) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(24.7 50) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+</svg>
+</span>
+          <span class="brand__text"><b>BEZERRA</b><small>ENGENHARIA</small></span>
+        </a>
+        <p>Construir é cuidar do que vem depois. Planejamos com responsabilidade, executamos com precisão e mantemos uma relação transparente em cada etapa.</p>
+      </div>
+      <div class="site-footer__col" data-reveal style="--d:.08s">
+        <h4>Navegação</h4>
+        <a href="/empreendimentos">Empreendimentos</a>
+        <a href="/sobre">Quem somos</a>
+        <a href="/sobre#diferenciais">Diferenciais</a>
+        <a href="/contato">Contato</a>
+      </div>
+      <div class="site-footer__col" data-reveal style="--d:.16s">
+        <h4>Empreendimentos</h4>
+        <a href="/empreendimentos?status=lancamento">Lançamentos</a>
+        <a href="/empreendimentos?status=em_obras">Em obras</a>
+        <a href="/empreendimentos?status=entregue">Prontos para morar</a>
+      </div>
+      <div class="site-footer__col" data-reveal style="--d:.24s">
+        <h4>Contato</h4>
+        <a href="tel:+8100000000">(81) 0000-0000</a>
+        <a href="https://wa.me/5581000000000" target="_blank" rel="noopener">WhatsApp</a>        <a href="mailto:contato@bezerraengenharia.com.br">contato@bezerraengenharia.com.br</a>
+        <span>Caruaru, PE</span>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Bezerra Engenharia. Todos os direitos reservados.</span>
+      <span>CNPJ 00.000.000/0001-00</span>
+      
+    </div>
+  </div>
+</footer>
+
+<!-- ===== Chatbot ===== -->
+<div class="chat" id="chat">
+  <button class="chat__fab" id="chatFab" aria-label="Abrir assistente virtual" aria-expanded="false" aria-controls="chatPanel">
+    <span class="chat__fab-ring"></span>
+    <svg class="chat__fab-icon chat__fab-icon--open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H7l-4 3V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>
+    <svg class="chat__fab-icon chat__fab-icon--close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    <span class="chat__fab-label">Posso ajudar?</span>
+  </button>
+  <section class="chat__panel" id="chatPanel" aria-hidden="true" aria-label="Assistente virtual">
+    <header class="chat__head">
+      <span class="chat__avatar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="#ffffff" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4YWVjMzViNy05ZTI0LTQzODQtODI3Ni1jMjg4ZjE4NmI2ZDIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLrCWQf+OlvsNJNFytmRLaAAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmYTFhMzNmMy05NWIzLTQ5MzEtYWYwOC01MTI5YjllNmZiMTJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoz/VczpfOi10FUF7D1hzPYAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggX5jXjCwzJDbgFQARpuzELpqZ4GZ/0tWlR/nrK2JL5V+kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaLxdXwbk2iNNBCuORqiSdcMAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBwNc0DnOSBrXLN9z5zRJ9h/hicMKWNWGiY4jcT21yQ8mRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiMZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjhhZWMzNWI3LTllMjQtNDM4NC04Mjc2LWMyODhmMTg2YjZkMi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjE2NzVmNzFiLTViMmUtNDVhYi05ZjYzLTJkYTE5ODhlZjc4ZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBfmNeMLDMkNuAVABGm7MQumpngZn/S1aVH+esrYkvlX6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggLpSMP4TJkYS5rWOXopw04wW9kUHC6dljOjUzRv7DtNaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgghkwi/IQo5RWb0P+qvEgKT0QGxW59PynshJwtblaBVnd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQGICY7OXGO5NuLc1RvLQMOPa0t2yCh+M7jmc54+Y/roCnktkDY9DhpN831UL4xbqanzpCmkDJtExGxS581Ha80E=</c2pa:manifest></metadata>
+  <g transform="translate(50 24.7) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(75.3 50) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(50 75.3) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+  <g transform="translate(24.7 50) rotate(45)"><rect x="-14" y="-14" width="28" height="28" rx="3.2"/></g>
+</svg>
+</span>
+      <div>
+        <strong>Assistente Bezerra</strong>
+        <small><i class="chat__dot"></i> Online agora</small>
+      </div>
+      <button class="chat__restart" id="chatRestart" title="Recomeçar conversa" aria-label="Recomeçar conversa">↺</button>
+    </header>
+    <div class="chat__body" id="chatBody" aria-live="polite"></div>
+    <div class="chat__footer" id="chatFooter"></div>
+  </section>
+</div>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lbClose" aria-label="Fechar">✕</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Anterior">‹</button>
+  <figure><img id="lbImg" alt=""><video id="lbVideo" controls playsinline preload="metadata" hidden></video><figcaption id="lbCap"></figcaption></figure>
+  <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Próxima">›</button>
+</div>
+
+<script>
+  window.BZ = {
+    base: "",
+    api: "\/api",
+    csrf: "f58550a3242e796d7e7c89997bdc346668bf3e905b7ff862",
+    empreendimentos: "\/empreendimentos",
+    logo: "\/assets\/img\/logo-mark-white.svg?v=321403"  };
+</script>
+<script src="/assets/js/site.js?v=742087" defer></script>
+<script src="/3d/bezerra-3d.js" defer></script>
+</body>
+</html>

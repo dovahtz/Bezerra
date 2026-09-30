@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/api/contato.php", "destination": "/api/contato" },
+    { "source": "/api/chatbot.php", "destination": "/api/chatbot" }
+  ],
+  "headers": [
+    { "source": "/uploads/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] },
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
+  ]
+}
